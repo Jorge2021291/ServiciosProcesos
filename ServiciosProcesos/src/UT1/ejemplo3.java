@@ -5,7 +5,7 @@ import java.io.*;
 public class ejemplo3 {
     public static void main(String[] args) {
         Runtime r = Runtime.getRuntime();
-        String comando = "java Unsaludo \"Hola Mundo!!\" ";
+        String comando = "java .//p5.java  \"Hola Mundo!!\" ";
         Process p = null;
         if (args.length < 1) {
             System.out.println("SE NECESITA UN NOMBRE DE FICHERO...");
@@ -29,6 +29,7 @@ public class ejemplo3 {
             }
             br.close();
             pw.close();
+            br .readLine();
         }
         catch (Exception e) { e .printStackTrace(); }
 // COMPROBACION DE ERROR - 0 bien 1 -mal
