@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/ACTS.iml" filepath="$PROJECT_DIR$/.idea/ACTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/ACt4/ACt4.iml" filepath="$PROJECT_DIR$/ACt4/ACt4.iml" />
       <module fileurl="file://$PROJECT_DIR$/act05/act05.iml" filepath="$PROJECT_DIR$/act05/act05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/act06/act06.iml" filepath="$PROJECT_DIR$/act06/act06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/act07/act07.iml" filepath="$PROJECT_DIR$/act07/act07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/act08/act08.iml" filepath="$PROJECT_DIR$/act08/act08.iml" />
     </modules>
   </component>
 </project>
