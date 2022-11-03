@@ -11,6 +11,7 @@ public class Ej8 {
 
 
         int entrada = 1;
+
         while (entrada != 0) {
             System.out.print("Introduce un numero(si introduce 0, se le dejara de pedir numeros): ");
             entrada = sc.nextInt();
