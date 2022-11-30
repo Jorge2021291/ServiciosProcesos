@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df5539d0-e24f-43b1-818f-1b34d07ec6e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testeo/a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MostruoGalletas/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MostruoGalletas/Ejercicio1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MostruoGalletas/a.java" beforeDir="false" />
+    <list default="true" id="df5539d0-e24f-43b1-818f-1b34d07ec6e1" name="Changes" comment="wont stop thread">
+      <change beforePath="$PROJECT_DIR$/src/testeo/a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testeo/a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669809705618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wont stop">
+      <created>1669844657097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669844657097</updated>
+    </task>
+    <task id="LOCAL-00003" summary="wont stop thread">
+      <created>1669844874087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669844874087</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +195,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/nuevo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/nuevo" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -192,7 +230,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nuevo" />
-    <option name="LAST_COMMIT_MESSAGE" value="nuevo" />
+    <MESSAGE value="wont stop" />
+    <MESSAGE value="wont stop thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="wont stop thread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
