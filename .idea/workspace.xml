@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df5539d0-e24f-43b1-818f-1b34d07ec6e1" name="Changes" comment="wont stop threads">
+    <list default="true" id="df5539d0-e24f-43b1-818f-1b34d07ec6e1" name="Changes" comment="EJ1 DONE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testeo/a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testeo/a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MostruoGalletas/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MostruoGalletas/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testeo/a.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/Users/JorgeYu/Documents/ServiciosProcesos/UD2/BoletinUD2/EjerI_UD2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.a (1)">
+  <component name="RunManager" selected="Application.Ejercicio1 (1)">
     <configuration name="Ejercicio1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MostruoGalletas.Ejercicio1" />
       <module name="Ejercicio1" />
@@ -84,33 +85,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostruoGalletas.Ejercicio1" />
+      <module name="Ejercicio1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MostruoGalletas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="a (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeo.a" />
-      <module name="Ejercicio1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testeo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="a (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeo.a" />
-      <module name="Ejercicio1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testeo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="a (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testeo.a" />
       <module name="Ejercicio1" />
       <extension name="coverage">
@@ -151,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio1 (1)" />
+        <item itemvalue="Application.Ejercicio1" />
         <item itemvalue="Application.a (1)" />
         <item itemvalue="Application.a" />
         <item itemvalue="Application.a (5)" />
-        <item itemvalue="Application.a (4)" />
-        <item itemvalue="Application.a (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669845001389</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="EJ1 DONE">
+      <created>1669845890314</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669845890314</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,17 +251,7 @@
     <MESSAGE value="wont stop" />
     <MESSAGE value="wont stop thread" />
     <MESSAGE value="wont stop threads" />
-    <option name="LAST_COMMIT_MESSAGE" value="wont stop threads" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MostruoGalletas/Ejercicio1.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="EJ1 DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="EJ1 DONE" />
   </component>
 </project>
