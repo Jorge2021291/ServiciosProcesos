@@ -9,12 +9,12 @@ public class a extends Thread {
         Monstruo m3 = new Monstruo("Monstruo 3", almacen);
         Guardian g = new Guardian(almacen);
 
+        System.out.println("El almacen tiene: " + almacen.getGalletas() + " galletas");
 
         m1.start();
         m2.start();
         m3.start();
         g.start();
-
 
 
 
@@ -41,7 +41,12 @@ class Monstruo extends Thread{
 
 
             while (galletas.getTotal() < 100){
+
                 while (galletas.getGalletas() == 0){
+                    if(galletas.getTotal() == 100){
+                        break;
+
+                    }
                     try {
                         galletas.wait();
                     } catch (InterruptedException e) {
@@ -59,6 +64,9 @@ class Monstruo extends Thread{
                 } else{
                     galletas.setTotal(total + galletas.getGalletas());
                     galletas.setGalletas(0);
+                    if(total == 100){
+                        break;
+                    }
                 }
                 System.out.println("El " + nombre +  " come: " + comer + " Galletas" + ".  Total Galletas robadas: " + galletas.getTotal());
                 System.out.println("quedan: " + galletas.getGalletas() + " Galletas");
@@ -109,7 +117,7 @@ class Guardian extends Thread{
                         galletas.setGalletas(10);
                         galletas.setContador(nCont += 1);
 
-                        System.out.println("No hay galletas!, repongo 10");
+                        System.out.println("No hay galletas!, Guardian repone 10 galletas");
                         System.out.println("--------------------------------------------");
 
 
