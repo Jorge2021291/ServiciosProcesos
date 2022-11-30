@@ -10,7 +10,6 @@ public class Ejercicio1 extends Thread {
         Guardian g = new Guardian(almacen);
 
 
-
         m1.start();
         m2.start();
         m3.start();
