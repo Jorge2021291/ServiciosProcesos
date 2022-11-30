@@ -1,6 +1,6 @@
-package MostruoGalletas;
+package testeo;
 
-public class Ejercicio1 extends Thread {
+public class a extends Thread {
     public static void main(String[] args) {
         Almacen almacen = new Almacen();
 
@@ -10,12 +10,10 @@ public class Ejercicio1 extends Thread {
         Guardian g = new Guardian(almacen);
 
 
-            m1.start();
-            m2.start();
-            m3.start();
-            g.start();
-
-
+        m1.start();
+        m2.start();
+        m3.start();
+        g.start();
 
 
 
@@ -44,16 +42,17 @@ class Monstruo extends Thread{
     public void run() {
         synchronized (galletas){
 
-            while (galletas.getGalletas() == 0){
-                try {
-                    wait();
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
 
-            }
 
             while (galletas.getTotal() < 100){
+                while (galletas.getGalletas() == 0){
+                    try {
+                        galletas.wait();
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+
+                }
                 int nGalletas = galletas.getGalletas();
                 int comer = (int) (Math.random()*(10)+1);
                 int total = galletas.getTotal();
@@ -65,10 +64,10 @@ class Monstruo extends Thread{
                     galletas.setTotal(total + galletas.getGalletas());
                     galletas.setGalletas(0);
                 }
-                System.out.println("El " + nombre +  " come: " + comer + " Galletas");
+                System.out.println("El " + nombre +  " come: " + comer + " Galletas" + ".  Total Galletas robadas: " + galletas.getTotal());
                 System.out.println("quedan: " + galletas.getGalletas() + " Galletas");
                 System.out.println("--------------------------------------------");
-                notifyAll();
+                galletas.notifyAll();
 
 
             }
@@ -94,24 +93,25 @@ class Guardian extends Thread{
     public void run() {
         synchronized (galletas){
 
-            while (galletas.getGalletas() > 0){
-                try {
-                    wait();
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
 
-            }
 
             while (galletas.getTotal() < 100){
+                while (galletas.getGalletas() > 0){
+                    try {
+                        galletas.wait();
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+
+                }
                 int nGalletas = galletas.getGalletas();
                 int nCont = galletas.getContador();
 
-                while (nCont <= 9){
+                while (nCont < 9){
 
                     if(nGalletas == 0){
                         galletas.setGalletas(10);
-                        galletas.setContador(nCont ++);
+                        galletas.setContador(nCont += 1);
 
                         System.out.println("No hay galletas!, repongo 10");
                         System.out.println("--------------------------------------------");
@@ -123,13 +123,13 @@ class Guardian extends Thread{
 
 
 
-            }
+                }
 
 
 
 
             }
-            notifyAll();
+            galletas.notifyAll();
 
 
 

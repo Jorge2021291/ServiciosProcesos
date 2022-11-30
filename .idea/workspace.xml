@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a48217-8c86-4d46-9b18-35ee2c39db67" name="Changes" comment="nuevo">
+    <list default="true" id="df5539d0-e24f-43b1-818f-1b34d07ec6e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/testeo/a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MostruoGalletas/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MostruoGalletas/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MostruoGalletas/a.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +28,24 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2IGQiDG91nyTvbbLejEJqroKYPT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Users/JorgeYu/Documents/ServiciosProcesos/UD2/BoletinUD2/EjerI_UD2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/JorgeYu/Documents/ServiciosProcesos/UD2/BoletinUD2/EjerI_UD2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Ejercicio1 (5)">
+}</component>
+  <component name="RunManager" selected="Application.a (1)">
     <configuration name="Ejercicio1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MostruoGalletas.Ejercicio1" />
       <module name="Ejercicio1" />
@@ -79,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio1 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MostruoGalletas.Ejercicio1" />
+    <configuration name="a (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeo.a" />
       <module name="Ejercicio1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostruoGalletas.*" />
+          <option name="PATTERN" value="testeo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +98,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio1 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MostruoGalletas.Ejercicio1" />
+    <configuration name="a (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeo.a" />
       <module name="Ejercicio1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostruoGalletas.*" />
+          <option name="PATTERN" value="testeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeo.a" />
+      <module name="Ejercicio1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeo.a" />
+      <module name="Ejercicio1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeo.a" />
+      <module name="Ejercicio1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testeo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ejercicio1 (5)" />
-        <item itemvalue="Application.Ejercicio1 (4)" />
-        <item itemvalue="Application.Ejercicio1 (3)" />
-        <item itemvalue="Application.Ejercicio1 (2)" />
-        <item itemvalue="Application.Ejercicio1 (1)" />
+        <item itemvalue="Application.a (1)" />
+        <item itemvalue="Application.a" />
+        <item itemvalue="Application.a (5)" />
+        <item itemvalue="Application.a (4)" />
+        <item itemvalue="Application.a (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,5 +193,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nuevo" />
     <option name="LAST_COMMIT_MESSAGE" value="nuevo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostruoGalletas/Ejercicio1.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
