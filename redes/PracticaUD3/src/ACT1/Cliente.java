@@ -21,8 +21,9 @@ public class Cliente {
         Socket Cliente = new Socket(Host, Puerto);
 
 
-        System.out.println("La operacion tiene que tener este formato: operando operador operando");
-        System.out.println("Introduce la operacion: ");
+        System.out.println("#################### Calculadora Naútica #################### + " +
+                "'Sintaxis: operando operador operando. Operadores: + - * /. Ejemplo: 5 + 5' ");
+        System.out.println("¿Qué necesita calcular?: ");
         NumBase = sc.nextLine();
         System.out.println(NumBase);
 
