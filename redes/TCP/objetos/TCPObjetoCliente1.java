@@ -1,4 +1,4 @@
-/* package objetos;
+package objetos;
 
 import java.io.*;
 import java.net.*;
@@ -36,4 +36,4 @@ public class TCPObjetoCliente1 {
     cliente.close();		
   }
 }//..
-*/
+

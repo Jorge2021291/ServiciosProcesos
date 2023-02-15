@@ -1,4 +1,6 @@
-/* import java.io.*;
+package objetos;
+
+import java.io.*;
 import java.net.*;
 
 public class TCPObjetoServidor1 {
@@ -31,4 +33,4 @@ public class TCPObjetoServidor1 {
   }
 }//..
 
- */
+

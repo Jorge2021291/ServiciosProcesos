@@ -1,4 +1,4 @@
-package ACT3_7;
+package ACT3_7_OG;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -18,7 +18,7 @@ public class Servidor {
             Socket cliente = servidor.accept();
             ObjectInputStream inObjeto = new ObjectInputStream(
                     cliente.getInputStream());
-            Numeros numReci = (Numeros) inObjeto.readObject();
+            ACT3_7_OG.Numeros numReci = (ACT3_7_OG.Numeros) inObjeto.readObject();
             System.out.println("Recibo: " + numReci.getNumero());
             if(numReci.getNumero() <= 0){
                 test = false;
@@ -26,7 +26,7 @@ public class Servidor {
             else{
 
 
-                Numeros numEnvi = new Numeros(numReci.getNumero(),(long) Math.pow(numReci.getNumero(), 2) , (long)Math.pow(numReci.getNumero(), 3));
+                ACT3_7_OG.Numeros numEnvi = new Numeros(numReci.getNumero(),(long) Math.pow(numReci.getNumero(), 2) , (long)Math.pow(numReci.getNumero(), 3));
                 ObjectOutputStream outObjeto = new ObjectOutputStream(
                         cliente.getOutputStream());
 

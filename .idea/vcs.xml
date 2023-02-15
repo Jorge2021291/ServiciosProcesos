@@ -4,7 +4,13 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ACTS/ACt4/Act04" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ACTS/act05" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UD2/BoletinUD2/Ejercicio1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UD2/BoletinUD2/JorgeYu_AD_Ex_1a_Eval" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/UD2/PrimerHilo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UD2/Simulacro" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UD2/UD2_4" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/UD2/untitled" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/redes/Ej3.3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/redes/redes1" vcs="Git" />
   </component>
 </project>
